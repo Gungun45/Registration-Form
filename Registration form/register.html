@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+    <div class="container">
+    <div class="container1" >
+      
+           <div id="name"><label for="">Name:</label>
+        <input type="text" id="user_input" name="name" ></div>
+          <div id="ema"><label for="">Email:</label>
+      <input type="email" id="em"></div>
+        <div id="website"><label for="">Website:</label>
+        <input type="text" id="wb"></div>
+         <div id="birth"><label for="">Date of birth:</label>
+        <input type="date" id="bh"></div>
+        <div id="pass"> <label for="">Password:</label>
+          <input type="password" name="password" id="password"></div>
+
+        <input type="submit" onclick="showInput();" class="submit" id="sub">
+    </div>
+    <div class="container2">
+      <p><span id='display'></span></p>
+      <p><span id='email'></span></p>
+    
+      <p><span id='bir'></span></p>  
+      <p><span id='r'></span></p>
+      <p><span id='p'></span></p>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
